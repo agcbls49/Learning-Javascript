@@ -1,1 +1,1 @@
-// Type Conversion
+// Hypotenuse Calculator
