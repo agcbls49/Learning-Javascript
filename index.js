@@ -1,1 +1,2 @@
-// Hypotenuse Calculator
+// String Slicing
+
