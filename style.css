@@ -6,7 +6,7 @@
     font-size: 50px;
 } */
 
-#myBox {
+/* #myBox {
     font-family: sans-serif;
     background-color: lightgreen;
     width: 300px;
@@ -16,8 +16,23 @@
     display: flex;
     align-items: center;
     text-align: center;
+} */
+
+/* #myButton {
+    font-size: 3rem;
+} */
+
+body {
+    margin: 0;
 }
 
-#myButton {
-    font-size: 3rem;
+#myBox {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    font-size: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
