@@ -1,49 +1,37 @@
-/* Counter Calculator */
-
-/* #countLabel {
-    display: block;
-    text-align: center;
-    font-size: 50px;
+/* .myButtons {
+    font-size: 4rem;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: hsl(205, 100%, 60%);
 } */
 
-/* #myBox {
-    font-family: sans-serif;
-    background-color: lightgreen;
-    width: 300px;
-    height: 300px;
-    font-size: 4.5rem;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    text-align: center;
-} */
-
-/* #myButton {
-    font-size: 3rem;
-} */
-
-/* body {
-    margin: 0;
+/* Class List */
+#myH1 {
+    font-size: 5rem;
 }
 
-#myBox {
-    background-color: lightblue;
-    width: 200px;
-    height: 200px;
-    font-size: 7.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-} */
+#myButton {
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
 
-/* 
-#myBtn {
-    font-family: sans-serif;
-    font-size: 2rem;
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    border: solid black 0;
+.enabled {
+    background-color: hsl(204, 100%, 50%);
     color: white;
-} */
+}
+
+.hover {
+    box-shadow: 0 0 10px hsla(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.disabled {
+    color: lightgray;
+    background-color: grey;
+}
