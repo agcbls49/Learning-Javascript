@@ -1,117 +1,52 @@
-/* .myButtons {
-    font-size: 4rem;
-    color: white;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    background-color: hsl(205, 100%, 60%);
-} */
-
-/* Class List */
-/* #myH1 {
-    font-size: 5rem;
+.slider {
+    position: relative;
+    width: 100%;
+    /* center all horizontally */
+    margin: auto;
+    /* if image is too big */
+    overflow: hidden;
 }
 
-#myButton {
-    font-size: 4rem;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
+.slider img {
+    width: 40%;
+    /* dont show all the images */
+    display: none; 
+} 
+
+img.displaySlide {
+    display: block;
+    /* use the animation */
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
-.enabled {
-    background-color: hsl(204, 100%, 50%);
-    color: white;
-}
-
-.hover {
-    box-shadow: 0 0 10px hsla(0, 0, 0, 0.2);
-    font-weight: bold;
-}
-
-.disabled {
-    color: lightgray;
-    background-color: grey;
-} */
-
-/* class list with node list */
-/* .myButtons {
-    font-size: 4rem;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-}
-
-.enabled {
-    background-color: hsl(204, 100%, 50%);
-    color: white;
-}
-
-.hover {
-    box-shadow: 0 0 10px hsla(0, 0, 0, 0.2);
-    font-weight: bold;
-}
-
-.disabled {
-    color: lightgray;
-    background-color: grey;
-} */
-
-/* Rock Paper Scissors */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-h1 {
-    font-size: 3.5rem;
-    color: hsl(0, 0%, 20%);
-}
-
-.choices {
-    margin-bottom: 30px;
-}
-
-.choices button{
-    font-size: 7.5rem;
-    min-width: 160px;
-    margin: 0 10;
-    border-radius: 250px;
-    background-color: hsl(200, 100%, 50%);
-    /* when hovering on the button
-    change to pointer and make color lighter with slow changing color effect*/
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-
-.choices button:hover {
-    background-color: hsl(200, 100%, 70%);
-}
-
-#playerDisplay, #computerDisplay {
-    font-size: 2.5rem;
-}
-
-#resultDisplay {
-    font-size: 5rem;
-    margin: 30px 0;
-}
-
-.scoreDisplay {
+.slider button{
+    position: absolute;
+    /* place buttons at the top y axis which is the at middle of the images */
+    top: 50%;
+    /* move buttons up by 50% */
+    transform: translateY(-50%);
     font-size: 2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
 }
 
-.greenText, #playerScoreDisplay {
-    color: hsl(130, 84%, 54%);
+/* align buttons to the left and right */
+.previous {
+    left: 0;
 }
 
-.redText, #computerScoreDisplay{
-    color: hsl(0, 84%, 60%);
+.next {
+    right: 60%;
+}
+
+/* add animation */
+/* when a new image is displayed, the opacity will be 
+50% transparent then after animation set it to 1 for 100%
+*/
+@keyframes fade {
+    from {opacity: .5%} to {opacity: 1}
 }

@@ -1,4 +1,5 @@
-// 10:18:14
+// ordered by population of each city in Denmark
+// Copenhagen, Aarhus, Odense, Aalborg, Frederiksberg
 
 // create a nodelist to implement functionality
 const slides = document.querySelectorAll(".slides img");
