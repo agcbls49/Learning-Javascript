@@ -1,4 +1,5 @@
-// DOM navigation - the process of navigating through the stucture of an HTML document using Javascript.
+// DOM navigation - the process of navigating through the stucture of an 
+// HTML document using Javascript.
 
 // .firstElementChild
 // .lastElementChild
