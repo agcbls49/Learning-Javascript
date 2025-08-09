@@ -1,4 +1,4 @@
-// if statements
+// If Statements
 
 let age = 21;
 // let age = -5;

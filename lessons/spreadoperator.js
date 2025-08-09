@@ -1,5 +1,6 @@
-// Spread Operator - allows an iterable such as an array or string to be expanded in places where zero or more 
-// arguments are expected (unpacks the elements)
+// Spread Operator - allows an iterable such as an array or string to be 
+// expanded in places where zero or more arguments are expected 
+// (unpacks the elements)
 
 // includes the [] of the array
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];

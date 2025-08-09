@@ -1,5 +1,5 @@
-// break = breaks out of a loop entirely
-// continue = skips an iteration of a loop
+// Break = breaks out of a loop entirely
+// Continue = skips an iteration of a loop
 
 // stop printing once i = 13
 for (let i = 1; i <= 20; i++) {

@@ -1,4 +1,4 @@
-// element selectos = Methods used to target and manipulate HTML elements. They allow you yo select one or 
+// Element selectors = Methods used to target and manipulate HTML elements. They allow you yo select one or 
 // multiple HTML elements from the DOM
 
 // 1. document.getElementById()     // ELEMENT OR NULL

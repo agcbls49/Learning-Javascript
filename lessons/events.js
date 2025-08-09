@@ -1,4 +1,4 @@
-// eventListener - listen for specific mouse events to create interactive web page events: click, mouseover,
+// EventListener - listen for specific mouse events to create interactive web page events: click, mouseover,
 // mouseout. .addEventListener(event, callback);
 
 // addEventListener

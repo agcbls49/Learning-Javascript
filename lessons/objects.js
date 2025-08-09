@@ -1,4 +1,4 @@
-// object - a collection of related properties and/or methods. can represent real world objects
+// Object - a collection of related properties and/or methods. can represent real world objects
 // (people, products, places) object = {key:value, function()}
 
 const person1 = {

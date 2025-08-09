@@ -1,4 +1,4 @@
-// eventListener - Listen for specific events to 
+// EventListener - Listen for specific events to 
 // create interactive web page events: keydown, keyup
 // document.addEventListener(event, callback);
 

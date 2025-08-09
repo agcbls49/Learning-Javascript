@@ -1,4 +1,4 @@
-// 2d arrays
+// 2d Arrays
 
 let fruits = ["apples", "pranges", "banana"];
 let vegetables = ["carrots", "onions", "potatoes"];

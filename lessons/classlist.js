@@ -1,4 +1,4 @@
-// classList - Element property in Javascsript used to interact with an element's
+// ClassList - Element property in Javascsript used to interact with an element's
 // list of classes (CSS classes). Allows you to make reusable classes for many
 // elements across your webpage.
 

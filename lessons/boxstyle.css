@@ -1,0 +1,13 @@
+/* This file is connected to the JS file named addchangeHTML.js
+and the HTML comment is named Adding and Changing HTML */
+
+.box {
+    border: 3px solid black;
+    width: 100%;
+    height: 125px;
+}
+
+#fruits {
+    border: 3px solid;
+    font-size: 2rem;
+}

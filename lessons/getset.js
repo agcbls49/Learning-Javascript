@@ -1,5 +1,5 @@
-// getter = special method that makes a property readable
-// setter = special method that makes a propert writable
+// Getter = special method that makes a property readable
+// Setter = special method that makes a property writable
 
 // validate and modify a value when reading / writing a property
 
