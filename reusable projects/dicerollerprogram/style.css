@@ -1,0 +1,45 @@
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* em is the font size relative to the parent */
+    /* rem is for the root */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(210, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* make button color lighter when hovered over */
+button:hover {
+    background-color: hsl(210, 100%, 60%);
+}
+
+/* make button color lighter if clicked. this is only momentarily */
+button:active {
+    background-color: hsl(210, 100%, 70%);
+}
+
+input {
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diceResult {
+    margin: 25px;
+}
+
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}

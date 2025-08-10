@@ -1,6 +1,6 @@
 // let = variable limited to a block scope{} / doesn't exist outside of curly braces
 // var = variable limited to a function(){} / doesn't exist outside of a function
-// global = variable decalred outside of a function
+// global = variable declared outside of a function
 
 // for (let i = 1; i <= 3; i++) {
 //     console.log(i);
