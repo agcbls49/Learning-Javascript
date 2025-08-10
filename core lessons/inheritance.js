@@ -51,9 +51,9 @@ rabbit.run();
 console.log(fish.alive);
 fish.eat();
 fish.sleep();
-rabbit.swim();
+fish.swim();
 
 console.log(hawk.alive);
 hawk.eat();
 hawk.sleep();
-rabbit.fly();
+hawk.fly();
