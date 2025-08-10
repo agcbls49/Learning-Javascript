@@ -1,3 +1,4 @@
+// Sorts elements as strings in lexicographic order = (alphabet + numbers + symbols)
 let fruits = ["banana", "apple", "orange", "mango"];
 
 // sort in alphabetical order
